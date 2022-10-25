@@ -1,0 +1,31 @@
+Create database mitiendita;
+Use mitiendita ;
+CREATE TABLE IF NOT EXISTS `mitiendita`.`CLIENTES` (
+  `Codigo_cliente` INT NOT NULL,
+  `Nombre` VARCHAR(45) NOT NULL,
+  `Apellido` VARCHAR(45) NULL,
+  `Telefono` VARCHAR(45) NULL,
+  PRIMARY KEY (`Codigo_cliente`))
+ENGINE = InnoDB
+CREATE TABLE IF NOT EXISTS `mitiendita`.`CLIENTES` (
+  `Codigo_cliente` INT NOT NULL,
+  `Nombre` VARCHAR(45) NOT NULL,
+  `Apellido` VARCHAR(45) NULL,
+  `Telefono` VARCHAR(45) NULL,
+  PRIMARY KEY (`Codigo_cliente`))
+ENGINE = InnoDB
+CREATE TABLE IF NOT EXISTS `mitiendita`.`CLIENTES` (
+  `Codigo_cliente` INT NOT NULL,
+  `Nombre` VARCHAR(45) NOT NULL,
+  `Apellido` VARCHAR(45) NULL,
+  `Telefono` VARCHAR(45) NULL,
+  PRIMARY KEY (`Codigo_cliente`))
+ENGINE = InnoDB
+CREATE TABLE IF NOT EXISTS `mitiendita`.`CLIENTES` (
+  `Codigo_cliente` INT NOT NULL,
+  `Nombre` VARCHAR(45) NOT NULL,
+  `Apellido` VARCHAR(45) NULL,
+  `Telefono` VARCHAR(45) NULL,
+  PRIMARY KEY (`Codigo_cliente`))
+ENGINE = InnoDB
+
